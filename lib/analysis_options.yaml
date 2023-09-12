@@ -133,14 +133,14 @@ linter:
     - prefer_asserts_with_message
     - avoid_returning_this
 
-#analyzer:
-#  exclude:
-#    - lib/generated/**
-#    - lib/**/**.g.dart
-#    - lib/**/**.gr.dart
-#    - lib/**/*.freezed.dart
-#  errors:
-#    invalid_annotation_target: ignore
-#    unused_import: error
-#    use_super_parameters: error
-#    invalid_use_of_visible_for_testing_member: error
+analyzer:
+  exclude:
+    - lib/generated/**
+    - lib/**/**.g.dart
+    - lib/**/**.gr.dart
+    - lib/**/*.freezed.dart
+  errors:
+    invalid_annotation_target: ignore
+    unused_import: error
+    use_super_parameters: error
+    invalid_use_of_visible_for_testing_member: error
